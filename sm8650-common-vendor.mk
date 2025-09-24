@@ -6,14 +6,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/sm8650-common
 
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/Custom_LUT_hlg.cube:$(TARGET_COPY_OUT_ODM)/etc/Custom_LUT_hlg.cube \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/QtiFtmPublicKey.pem:$(TARGET_COPY_OUT_ODM)/etc/QtiFtmPublicKey.pem \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/apdr.conf:$(TARGET_COPY_OUT_ODM)/etc/apdr.conf \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/displaycolorfeaturecfg.xml:$(TARGET_COPY_OUT_ODM)/etc/displaycolorfeaturecfg.xml \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube:$(TARGET_COPY_OUT_ODM)/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/init/android.hardware.contexthub-service.qmi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.contexthub-service.qmi.rc \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/init/android.hardware.secure_element-service.qti.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.secure_element-service.qti.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/commcenterd.rc:$(TARGET_COPY_OUT_ODM)/etc/init/commcenterd.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/hw/init.oplus.wifi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.wifi.rc \
@@ -24,12 +19,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature-service-lazy.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature-service-lazy.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.qti.qegahal-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.qegahal-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/oem_stx_platform_license.pfm:$(TARGET_COPY_OUT_ODM)/etc/oem_stx_platform_license.pfm \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/permissions/vendor-oplus-hardware-touch-V1.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-touch-V1.xml \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/plugin_config.xml:$(TARGET_COPY_OUT_ODM)/etc/plugin_config.xml \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/uah/uahconfig.pb:$(TARGET_COPY_OUT_ODM)/etc/uah/uahconfig.pb \
@@ -96,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/O_TDD-Bypass_platform_license.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/O_TDD-Bypass_platform_license.pfm \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/SDA_platform_license.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/SDA_platform_license.pfm \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/SNS_platform_license.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/SNS_platform_license.pfm \
+    vendor/oneplus/sm8650-common/proprietary/vendor/etc/SNS_platform_license_for_SM8635.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/SNS_platform_license_for_SM8635.pfm \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/acdbdata/ffv_models/ffv__6.2.5_0.1__eai_3.4__enpu_v4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__6.2.5_0.1__eai_3.4__enpu_v4.pmd \
@@ -144,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/chre/preloaded_nanoapps.json:$(TARGET_COPY_OUT_VENDOR)/etc/chre/preloaded_nanoapps.json \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
@@ -1083,11 +1076,11 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.displaypanelfeature-V1-ndk_vendor \
     vendor.oplus.hardware.ims-V1-ndk \
     vendor.oplus.hardware.stability.oplus_project-V1-ndk \
-    vendor.pixelworks.hardware.display-V2-ndk_vendor \
+    vendor.pixelworks.hardware.display-V2-ndk \
     vendor.pixelworks.hardware.display@1.0_vendor \
     vendor.pixelworks.hardware.display@1.1_vendor \
     vendor.pixelworks.hardware.display@1.2_vendor \
-    vendor.pixelworks.hardware.feature-V1-ndk_vendor \
+    vendor.pixelworks.hardware.feature-V1-ndk \
     vendor.pixelworks.hardware.feature@1.0_vendor \
     vendor.pixelworks.hardware.feature@1.1_vendor \
     vendor.qti.ImsRtpService-V1-ndk_vendor \
@@ -1304,40 +1297,29 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccsyshal_aidl-V1-ndk \
     vendor.qti.qccsyshal_aidl-halimpl \
     vendor.qti.qccvndhal_aidl-V1-ndk \
-    libQnnHtp.aiboost \
-    libQnnHtpPrepare.aiboost \
-    libQnnHtpV75Stub.aiboost \
-    libQnnSystem.aiboost \
     lib-virtual-modem-protos \
     libQnnCpu \
     libQnnGpu \
     libQnnHtp \
     libQnnHtpPrepare \
-    libQnnHtpV75CalculatorStub \
-    libQnnHtpV75Stub \
+    libQnnHtpV73CalculatorStub \
+    libQnnHtpV73Stub \
     libQnnSaver \
     libQnnSystem \
     libaiboost \
     libaiboost_qnn_external_delegate \
     libaiboost_qnn_external_delegate_te \
-    libaiboost_qnn_sr \
-    libaiboost_sr \
     libaiboost_te \
-    libaiboost_ubwc \
     libcommcenterfw \
     libcommcenterutils \
     libdisplayaidlapis \
-    libdisplaycolorfeature \
-    libdisplayfossfeature_nature \
     libdmtp-protos-lite \
     libdmtp \
     libdmtpclient \
     libdolbydecoderprocessor \
     libdolbyeglcore \
-    libdolbyencoderprocessor \
     libdolbyottcameracontrol \
     libdpaservice \
-    libhta_hexagon_runtime_snpe \
     libifaa_factory \
     libmindroid-app \
     libmindroid-framework \
@@ -1346,20 +1328,9 @@ PRODUCT_PACKAGES += \
     liboplus_service \
     libosenseaidlhalclient \
     libosensenativeproxy_client \
-    libpwirisIoctlWrapper \
-    libpwirisPCS \
-    libpwiriscalibrate \
     libpwirisfeature \
-    libpwirisfeaturehal \
     libpwirishalwrapper \
-    libpwirispq \
-    libpwirisservicei7 \
-    libpwirisservicei7p \
-    libpwirisservicesi \
-    libpwirissoft \
-    libpwsoftirisPCS \
     libqcodec2_dolbydecoderfilter \
-    libqcodec2_dolbyencoderfilter \
     libqti-radio-service \
     libqti-subsys-service \
     libradio-service \
@@ -1367,36 +1338,31 @@ PRODUCT_PACKAGES += \
     librfapis \
     librpmbengclient \
     libsecurity_event_dcs_vnd \
-    libsnapdragoncolor-pxlw \
     libsubsys-service \
     libsubsys-utils \
     libuahcore \
     vendor.oplus.hardware.appradio@1.0 \
     vendor.oplus.hardware.communicationcenter-V1-ndk \
     vendor.oplus.hardware.communicationcenter-V2-ndk \
-    vendor.oplus.hardware.displaycolorfeature-V1-ndk \
     vendor.oplus.hardware.displaypanelfeature-V1-ndk_odm \
     vendor.oplus.hardware.olc2-V1-ndk \
     vendor.oplus.hardware.olc2-V2-ndk \
     vendor.oplus.hardware.olc2-V3-ndk \
     vendor.oplus.hardware.stability.oplus_project-V2-ndk \
-    vendor.oplus.hardware.subsys-V3-ndk \
-    vendor.oplus.hardware.subsys_radio-V4-ndk \
-    vendor.pixelworks.hardware.display-V2-ndk \
-    vendor.pixelworks.hardware.display-impl-i7 \
-    vendor.pixelworks.hardware.display-impl-i7p \
-    vendor.pixelworks.hardware.display-impl-si \
-    vendor.pixelworks.hardware.display-translate-V2-ndk \
+    vendor.oplus.hardware.subsys-V4-ndk \
+    vendor.oplus.hardware.subsys_radio-V7-ndk \
+    vendor.oplus.hardware.touch-V1-ndk_odm \
+    vendor.oplus.hardware.touch-V2-ndk_odm \
     vendor.pixelworks.hardware.display@1.0 \
     vendor.pixelworks.hardware.display@1.1 \
     vendor.pixelworks.hardware.display@1.2 \
-    vendor.pixelworks.hardware.feature-V1-ndk \
     vendor.pixelworks.hardware.feature@1.0 \
     vendor.pixelworks.hardware.feature@1.1 \
     vendor.qti.hardware.soter@1.0 \
     vendor.qti.qegahal-V1-ndk_platform \
     vendor.qti.qegahal-impl \
     com.google.android.widevine.nonupdatable \
+    vendor.oplus.hardware.stability.aidl \
     CACertService \
     CneApp \
     IWlanService \
@@ -1450,7 +1416,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.xml \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.radio.config.xml \
-    android.hardware.secure_element.xml \
     android.hardware.security.keymint-service-qti.xml \
     atfwd-saidl.xml \
     bttpi-saidl.xml \
@@ -1464,7 +1429,6 @@ PRODUCT_PACKAGES += \
     mwqem-saidl.xml \
     qesdk-manager.xml \
     qms-saidl.xml \
-    secure_element-service-omapi.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.alarm.xml \
@@ -1487,16 +1451,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccvndhal_aidl-service.xml \
     vendor.qti.qspmhal-service.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
-    android.hardware.contexthub-service.qmi.xml \
     device_manifest_communication_center_aidl.xml \
-    manifest_displaycolorfeature_aidl.xml \
     manifest_oplus_cwb_aidl.xml \
     manifest_oplus_displaypanelfeature_aidl.xml \
     manifest_oplus_ifaa.xml \
-    manifest_oplus_stability_project_aidl.xml \
     manifest_touch_aidl.xml \
-    vendor.pixelworks.hardware.display-service.xml \
-    vendor.pixelworks.hardware.feature-service.xml \
     vendor.qti.qegahal-service.xml \
     ATFWD-daemon \
     adpl \
@@ -1516,7 +1475,6 @@ PRODUCT_PACKAGES += \
     hdcp2p2prov \
     hexlpservice \
     android.hardware.bluetooth@1.1-service-qti \
-    android.hardware.contexthub-service.qmi \
     android.hardware.gatekeeper-service-qti \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.identity-service-qti \
@@ -1633,16 +1591,12 @@ PRODUCT_PACKAGES += \
     wfdservice64 \
     commcenterd \
     cwb_utils_aidl \
-    android.hardware.secure_element-service.qti \
     subsys_daemon \
     vendor-oplus-hardware-touch-V2-service \
     vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
     vendor.oplus.hardware.displaypanelfeature-service \
-    vendor.oplus.hardware.stability.oplus_project-V1-service \
-    vendor.pixelworks.hardware.feature-service \
     init.oplus.wifi \
     init.subsys \
-    irisConfig \
     oldc_vnd \
     oplus_sensor_fb \
     oplus_sensor_ssr \
