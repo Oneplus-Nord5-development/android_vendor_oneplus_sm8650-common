@@ -77,16 +77,12 @@ else
 	persist_version=0
 fi
 
-first_boot=`getprop persist.vendor.oplus.first.boot`
-echo "xx${first_boot}" > /dev/kmsg
-if [ "${first_boot}x" = "x" ] || [ ! -s "$targetFile" -o $system_version -gt $persist_version ]; then
+
+if [ ! -s "$targetFile" -o $system_version -gt $persist_version ]; then
     cp $sourceFile  $targetFile
     sync
     chown system:wifi $targetFile
     chmod 666 $targetFile
-    echo "oplus_wlan ini version: ${system_version}" > /dev/kmsg
-else
-    echo "oplus_wlan ini version: ${persist_version}" > /dev/kmsg
 fi
 
 persistini=`cat "$targetFile" | grep -v "#" | grep -wc "END"`
