@@ -25286,6 +25286,35 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libclstc_fod_color",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libclstc_fod_color.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libdisplaydebug",
+                "libutilscallstack",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libcommcenterfw",
     owner: "oneplus",
     strip: {
@@ -27305,7 +27334,6 @@ cc_prebuilt_binary {
                 "libosensenativeproxy_client",
                 "libolc_vnd",
                 "vendor.oplus.hardware.commondcs-V1-ndk",
-                "android.frameworks.stats-V1-ndk",
                 "vendor.oplus.hardware.touch-V1-ndk",
                 "android.hardware.biometrics.fingerprint-V3-ndk",
                 "android.hardware.biometrics.common-V3-ndk",
