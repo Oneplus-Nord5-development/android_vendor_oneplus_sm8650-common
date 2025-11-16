@@ -768,7 +768,6 @@ PRODUCT_PACKAGES += \
     vendor.libdpmframework \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
-    vendor.oplus.hardware.stability.oplus_project-V1-ndk \
     vendor.qti.data.factoryservice-V1-ndk \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.mwqemaidlservice-V1-ndk \
@@ -935,7 +934,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.olc2-V1-ndk \
     vendor.oplus.hardware.olc2-V2-ndk \
     vendor.oplus.hardware.olc2-V3-ndk \
-    vendor.oplus.hardware.stability.oplus_project-V2-ndk \
     com.google.android.widevine.nonupdatable \
     CACertService \
     CneApp \
