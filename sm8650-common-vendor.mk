@@ -931,9 +931,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_dolbydecoderfilter \
     libqcodec2_dolbyencoderfilter \
     libuahcore \
-    vendor.oplus.hardware.olc2-V1-ndk \
-    vendor.oplus.hardware.olc2-V2-ndk \
-    vendor.oplus.hardware.olc2-V3-ndk \
     com.google.android.widevine.nonupdatable \
     CACertService \
     CneApp \
