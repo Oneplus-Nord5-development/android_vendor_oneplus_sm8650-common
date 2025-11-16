@@ -5124,7 +5124,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libolc_vnd.so",
             ],
             shared_libs: [
-                "vendor.oplus.hardware.olc2-V2-ndk",
+                "vendor.oplus.hardware.olc2-V3-ndk",
                 "libutils",
                 "liblog",
                 "libhidlbase",
@@ -15004,7 +15004,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libolc_vnd.so",
             ],
             shared_libs: [
-                "vendor.oplus.hardware.olc2-V2-ndk",
+                "vendor.oplus.hardware.olc2-V3-ndk",
                 "libutils",
                 "liblog",
                 "libhidlbase",
