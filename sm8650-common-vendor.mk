@@ -14,7 +14,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/uah/uahconfig.pb:$(TARGET_COPY_OUT_ODM)/etc/uah/uahconfig.pb \
     vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b00 \
     vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b01 \
     vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b02 \
@@ -924,13 +923,11 @@ PRODUCT_PACKAGES += \
     libdolbyottcameracontrol \
     libhta_hexagon_runtime_snpe \
     libolc_vnd \
-    liboplus-uah-client \
     liboplus_service \
     libosenseaidlhalclient \
     libosensenativeproxy_client \
     libqcodec2_dolbydecoderfilter \
     libqcodec2_dolbyencoderfilter \
-    libuahcore \
     com.google.android.widevine.nonupdatable \
     CACertService \
     CneApp \
