@@ -1390,7 +1390,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     lib-virtual-modem-protos \
-    libclstc_fod_color \
     libcommcenterfw \
     libcommcenterutils \
     libdmtp-protos-lite \
