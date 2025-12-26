@@ -628,7 +628,7 @@ PRODUCT_PACKAGES += \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
     libtaautoload \
-    libtensorflowlite_c \
+    libtensorflowlite_c_vendor \
     libthermalclient \
     libthreadutils \
     libtime_genoff \
@@ -763,7 +763,7 @@ PRODUCT_PACKAGES += \
     libqvr_cam_dsp_driver_skel \
     libqvr_dsp_driver_skel \
     libtracker_6dof_skel_8450 \
-    nearby.napp_header \
+    nearby \
     nearby \
     libdiag_system \
     libdiagatbparser_system \
@@ -1192,8 +1192,6 @@ PRODUCT_PACKAGES += \
     libnicm_utils \
     libnicm_vh \
     libpal_net_if \
-    libprotobuf-cpp-full-21.7 \
-    libprotobuf-cpp-lite-21.7 \
     libqcmaputils \
     libqcrilDataModule \
     libqcrilNr \
